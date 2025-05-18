@@ -33,7 +33,8 @@ form.addEventListener('submit', async event => {
       iziToast.info({
         message:
           'Sorry, there are no images matching your search query. Please try again!',
-        position: 'topRight',
+          position: 'topRight',
+        color: "red",
       });
       return;
     }
