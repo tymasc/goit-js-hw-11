@@ -73,3 +73,13 @@ body {
 #button-search:hover {
     background-color: #6C8CFF;
 }
+
+.loader {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+}
+
+.hidden {
+    display: none;
+}

@@ -25,7 +25,7 @@ form.addEventListener('submit', async event => {
 
   clearGallery();
   showLoader();
-
+  await new Promise(resolve => setTimeout(resolve, 1000));
   try {
     const data = await getImagesByQuery(query);
 
